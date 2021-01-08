@@ -60,6 +60,59 @@ nav{
     height: 150px;
 }
 
+.hamburger{
+    background-color: RED;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 45px;
+    right: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    visibility: visible;
+}
+
+.bar{
+    background-color: #fff; 
+    height: 2px;
+    width: 30px;
+    position: relative;
+    display: flex;
+}
+
+.bar::before, .bar::after{
+   content: '';
+   position: absolute;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background-color: #fff;
+}
+
+.bar::before{
+   top: 8px;
+}
+
+.bar::after{
+   bottom: 8px;
+}
+
+.hamburger.active .bar::before{
+   top: 0;
+   transform: rotate(45deg);
+}
+
+.hamburger.active .bar::after{
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+.hamburger.active .bar{
+    background-color: transparent;
+}
+
 main{
     grid-area: main;
 }
