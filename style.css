@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px;
+    grid-auto-rows: minmax(200px auto);
+}
+
+header, main, section, footer, aside{
+    background-color: red;
+    padding: 60px;
+}
+
+header{
+    
+}
