@@ -11,6 +11,12 @@ body{
     grid-template-columns: repeat(4, 1fr); 
     grid-gap: 10px;
     grid-auto-rows: minmax(200px auto);
+    grid-template-areas: 
+            "header header header header"   
+            "main main main main"
+            "section section section aside"
+            "footer footer footer footer"
+    ;
 }
 
 header, main, section, footer, aside{
