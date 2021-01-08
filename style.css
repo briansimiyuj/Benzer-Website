@@ -19,5 +19,21 @@ header, main, section, footer, aside{
 }
 
 header{
-    
+    grid-area: header;
+}    
+
+main{
+    grid-area: main;
+}
+
+section{
+    grid-area: section;
+}
+
+aside{
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
 }
