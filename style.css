@@ -36,7 +36,23 @@ header{
     grid-area: header;
     padding: 15px;
     display: flex;
-    justify-content: space-between   ;
+    justify-content: space-between;
+    position: relative;
+}
+
+nav{
+    padding-bottom: 15px;
+    width: 800px;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+
+.nav-list{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
 }
 
 .logo{
