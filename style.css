@@ -34,10 +34,11 @@ ul{
 
 header{
     grid-area: header;
-    padding: 15px;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
     position: relative;
+    background: goldenrod;
 }
 
 nav{
@@ -55,17 +56,21 @@ nav{
     margin-top: 50px;
 }
 
+.nav-list a{
+    text-transform: uppercase;
+} 
+
 .logo{
     width: 150px;
     height: 150px;
 }
 
 .hamburger{
-    background-color: RED;
+    background-color: lightcoral;
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 45px;
+    top: 65px;
     right: 45px;
     display: flex;
     align-items: center;
