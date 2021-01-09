@@ -118,6 +118,33 @@ nav{
     background-color: transparent;
 }
 
+.relative{
+    position: relative;
+}
+
+.sub-menu{
+    position: absolute;
+    top: 90px;
+    left: -6px;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    background: goldenrod;
+    display: none;
+}
+
+.relative:active .sub-menu, .relative:hover .sub-menu{
+    display: block;
+}
+
+.sub-menu li{
+    padding: 8px;
+}
+
+.sub-menu li:hover{
+    background: rgb(161, 117, 5);
+}
+
 main{
     grid-area: main;
 }
