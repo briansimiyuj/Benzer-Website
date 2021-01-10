@@ -187,6 +187,31 @@ video{
     height: 100%;
 }
 
+.content{
+    z-index: 10;
+    color: #ffffff;
+    text-align: center;
+}
+
+.content button{
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background: crimson;
+    color: #ffffff;  
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all .6s ease-out;
+    border: none;
+}
+
+.content button:hover{
+    background: turquoise;
+    color: blue;
+}
+
 section{
     grid-area: section;
 }
