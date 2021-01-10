@@ -161,7 +161,30 @@ main{
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    padding: 0 20px;
+}
+
+.video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+}
+
+.video-container::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .76);
+}
+
+video{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
 }
 
 section{
