@@ -145,8 +145,23 @@ nav{
     background: rgb(161, 117, 5);
 }
 
+
+
+
+
+
+
+
+
 main{
     grid-area: main;
+    position: relative;
+    display: flex;
+    height: 100vh;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
 }
 
 section{
