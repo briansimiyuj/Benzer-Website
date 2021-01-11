@@ -256,12 +256,22 @@ section{
 }
 
 .service{
-    background: red;
     padding: 40px;
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
+}
+
+.icon{
+    background: limegreen;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50%;
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 aside{
