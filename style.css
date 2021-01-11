@@ -203,7 +203,6 @@ video{
 
 .content{
     z-index: 10;
-    color: #ffffff;
     text-align: center;
 }
 
@@ -225,6 +224,15 @@ video{
     background: turquoise;
     color: blue;
 }
+
+.content h1{
+    margin-bottom: 1rem;
+    color: orange; 
+}
+
+.content p{
+    color: green;
+} 
 
 section{
     grid-area: section;
