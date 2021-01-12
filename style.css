@@ -247,12 +247,20 @@ section{
     margin-top: 1rem;
 }
 
+.section-heading{
+    background: pink;
+    margin-bottom: -35px;
+    padding-top: 10px;
+    color: red;
+}
+
 .services{
     margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(200px, auto);
     grid-gap: 10px;
+    background: pink;
 }
 
 .service{
