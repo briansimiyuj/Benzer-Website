@@ -297,8 +297,26 @@ article{
     margin-bottom: 1rem;
 }
 
+
+
+
+
+
+
 aside{
     grid-area: aside;
+    background: purple;
+    color: #fff;
+    padding: 1rem;
+}
+
+aside h1{
+    font-size: 2rem; 
+    margin-bottom: 1rem;
+}
+
+aside p{
+    font-size: 1.5rem;
 }
 
 footer{
