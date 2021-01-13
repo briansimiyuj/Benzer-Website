@@ -343,11 +343,18 @@ footer{
 }
 
 .left{
-    background: red;
     width: 50%; 
     display: flex;
     flex-flow: column;
     padding: 2rem;
+    background: lightcoral;
+}
+
+.social-profile{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-around;
 }
 
 
