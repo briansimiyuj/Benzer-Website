@@ -15,9 +15,11 @@ body{
             "header header header header"   
             "main main main main"
             "section section section aside"
+            "article article article aside"
             "footer footer footer footer"
     ;
 }
+
 
 img{
     width: 100%;
@@ -241,7 +243,10 @@ video{
 
 
 section{
-    grid-area: section;    
+    grid-area: section;
+}
+
+section, article{    
     color: blue;
     text-align: center;
     margin-top: 1rem;
@@ -280,6 +285,10 @@ section{
     border-radius: 50%;
     font-size: 3rem;
     margin-bottom: 1rem;
+}
+
+article{
+    grid-area: article;    
 }
 
 aside{
