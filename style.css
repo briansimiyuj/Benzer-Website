@@ -339,7 +339,9 @@ input{
 
 
 footer{
+    background: lightcoral;
     grid-area: footer;
+    display: flex;
 }
 
 .left{
@@ -347,7 +349,6 @@ footer{
     display: flex;
     flex-flow: column;
     padding: 2rem;
-    background: lightcoral;
 }
 
 .social-profile{
@@ -355,6 +356,14 @@ footer{
     font-size: 3rem;
     display: flex;
     justify-content: space-around;
+}
+
+.right{
+    display: grid;
+    grid-template-columns: repeat(3,  1fr);
+    font-size: 2rem;
+    padding: 3rem;
+    grid-gap: 15px;
 }
 
 
