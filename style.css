@@ -334,8 +334,20 @@ input{
     font-size: 1.7rem;
 }
 
+
+
+
+
 footer{
     grid-area: footer;
+}
+
+.left{
+    background: red;
+    width: 50%; 
+    display: flex;
+    flex-flow: column;
+    padding: 2rem;
 }
 
 
