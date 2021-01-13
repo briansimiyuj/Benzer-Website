@@ -291,6 +291,12 @@ article{
     grid-area: article;    
 }
 
+.serv-img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+}
+
 aside{
     grid-area: aside;
 }
