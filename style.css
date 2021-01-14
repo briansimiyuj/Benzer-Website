@@ -465,4 +465,27 @@ footer{
         margin-bottom: 18rem;
     }
 
+    body{
+        position: relative;
+    }
+
+    aside{
+        width: 95%;
+        position: absolute;
+        right: 0;
+        height: 750px;
+    }
+    
+    aside p{
+        font-size: .9rem;
+    }
+
+    .input button{
+        font-size: 1.2rem;
+    }
+
+    input{
+        font-size: 1.1rem;
+    }
+
 }
