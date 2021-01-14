@@ -1,13 +1,17 @@
 const hamburger = document.querySelector('.hamburger')
 
-console.log(hamburger)
+const nav = document.querySelector("nav")
+
+console.log(nav)
 
 
 
 hamburger.addEventListener('click', () =>{
-
-   console.log('working')
-
+   
    hamburger.classList.toggle('active')
+   
+   nav.classList.toggle('open')
+   
+   console.log('working')
 
 })
