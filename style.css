@@ -489,3 +489,52 @@ footer{
     }
 
 }
+
+
+
+@media(max-width: 768px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    nav{
+        left: 504px;
+    }
+    
+    aside{
+        height: 1610px;
+    }
+    
+    aside p{
+        font-size: 1.1rem;
+        
+    }
+
+    .services{
+        grid-template-columns: 1fr;
+    }
+
+    footer{
+        flex-flow: column;
+        width: 100%;
+    }
+    
+    .social-profile{
+        width: 800px;
+        transform: translateX(-5%);
+    }
+
+    .copyright{
+        width: 600px;
+    }
+    
+    .copyright p{
+        font-size: 2rem;
+    }
+
+    .input button{
+        font-size: 0.8rem;
+    }
+    
+}
