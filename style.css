@@ -538,3 +538,55 @@ footer{
     }
     
 }
+
+
+
+
+@media(max-width: 576px){
+    
+    h1{
+        font-size: 2rem;
+    }
+
+    aside h1, h2{
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+    
+    aside{
+        height: 1520px;
+    }
+
+    aside p{
+        font-size: .91rem;
+    }
+    
+    nav{
+        left: 374px;
+    }
+
+    .input button{
+        margin-top: 6px;
+        font-size: 0.6rem;
+    }
+
+    input{
+        font-size: 0.6rem;
+    }
+
+    .social-profile{
+        width: 550px;
+    }
+
+    .copyright p{
+        font-size: 1.4rem;
+    }
+
+    .right  h3{
+        font-size: 2rem;
+    }
+
+}
